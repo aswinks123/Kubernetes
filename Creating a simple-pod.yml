@@ -3,7 +3,7 @@ Create a simple POD
 apiVersion: v1  #api version of pod 
 kind: Pod 
 metadata: 
-  name: my-firstpod-with-affinity
+  name: my-firstpod   #Pod name
 spec:
   containers:
     - name: mywebserver   #Name of the container
